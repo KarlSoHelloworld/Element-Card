@@ -29,8 +29,7 @@ public class SpellCardDisplay : MonoBehaviour
         attacktValueText.text = spellCard.attackValue.ToString();
 
         cardImage.sprite = spellCard.cardImage;
-
-        Debug.Log("(int)spellCard.elementType:" + (int)spellCard.typeOfElement);
+        
         if (cardNameImage == null)
         {
             Debug.Log("cardnameimage is null");
