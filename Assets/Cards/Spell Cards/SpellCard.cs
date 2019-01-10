@@ -21,9 +21,10 @@ public class SpellCard : ElementCard
     public TypeOfElement typeOfElement = TypeOfElement.NONE;
 
 
+    //debug purpose
     public new void print()
     {
-        Debug.Log("name:" + name + "/description:" + description + "/Attack Value:" + attackValue);
+        //Debug.Log("name:" + name + "/description:" + description + "/Attack Value:" + attackValue);
     }
 
 }
